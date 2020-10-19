@@ -1,0 +1,10 @@
+str = input("Enter a word: ")
+print()
+y = int(input("Enter a no less than the len(x): "))
+
+def removeChars(str,y):
+    return str[y:]
+
+s = removeChars(str, y)
+print()
+print(s)
