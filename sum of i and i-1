@@ -1,0 +1,7 @@
+def sum(n):
+    psum = 0
+    for i in range(n):
+        csum = psum + i
+        print("CNumber ",i ,"PNumber ",psum ,"Sum: ", csum)
+        psum = i
+sum(10)
