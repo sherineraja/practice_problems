@@ -1,0 +1,19 @@
+test_data  = []
+
+n = int(input("Enter the no of data in the given list: "))
+
+for i in range(n):
+    e = int(input())
+    test_data.append(e)
+    
+print()
+print("The given test_data: ",test_data)
+
+def findDivisible(test_data):
+    print("Divisible of 5 in a list")
+    for num in test_data:
+        if (num % 5 == 0):
+            print(num)
+
+
+findDivisible(test_data)
